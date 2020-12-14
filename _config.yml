@@ -1,0 +1,15 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-bootstrap" # the subpath of your site, e.g. /blog
+title: "Jekyll Bootstrap Test Site" # the name of your site, e.g. ACME Corp.
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
+  # style : nested (default), compact, compressed, expanded
+  #         :nested, :compact, :compressed, :expanded also works
+  # see http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # on a typical twitter bootstrap stats are :
+  # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
+  style: compressed
