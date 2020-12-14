@@ -2,7 +2,7 @@
 Jekyll Bootstrap
 ================
 
-[![GitHub deployments](https://img.shields.io/github/deployments/bunop/jekyll-bootstrap/github-pages)](https://bunop.github.io/jekyll-bootstrap/)
+[![GitHub deployments](https://img.shields.io/github/deployments/bunop/bunop.github.io/github-pages)](https://bunop.github.io/bunop.github.io/)
 
 Following this guide and adding bootstrap to a Jekyll project:
 
