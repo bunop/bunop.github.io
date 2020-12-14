@@ -4,19 +4,27 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
-    <title>{{ page.title }}</title>
   </head>
-  <body>
+  <body id="page-top">
+    <!-- Navigation-->
+    {% include navigation.html %}
+
+    <!-- Page Content-->
     {{ content }}
 
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
-    <script src="{{ '/assets/vendor/jquery.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/vendor/popper.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/vendor/bootstrap.min.js' | relative_url }}"></script>
-
+    {% include javascripts.html %}
   </body>
 </html>
