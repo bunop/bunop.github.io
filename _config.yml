@@ -1,6 +1,6 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/jekyll-bootstrap" # the subpath of your site, e.g. /blog
-title: "Jekyll Bootstrap Test Site" # the name of your site, e.g. ACME Corp.
+url: "https://bunop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Paolo Cozzi Personal WebSite" # the name of your site, e.g. ACME Corp.
 
 sass:
   load_paths:
