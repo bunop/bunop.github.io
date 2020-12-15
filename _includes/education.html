@@ -5,12 +5,14 @@
     <div class="flex-grow-1">
       <h3 class="mb-0">{{ item.institution }}</h3>
       <div class="subheading mb-3">{{ item.award }}</div>
-      {% if item.department %}
-        <div>{{ item.department }}</div>
+      {% if item.description %}
+        <div>{{ item.description }}</div>
       {% endif %}
-      <p>{{ item.grade }}</p>
+      {% if item.grade %}
+        <p>{{ item.grade }}</p>
+      {% endif %}
     </div>
-    <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+    <div class="flex-shrink-0"><span class="text-primary">{{ item.period }}</span></div>
   </div>
   {% endfor %}
 </div>

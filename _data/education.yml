@@ -1,9 +1,35 @@
-- institution: University of Colorado Boulder
-  award: Bachelor of Science
-  department: Computer Science - Web Development Track
-  grade: "GPA: 3.23"
+- institution: University of Milan (Italy)
+  award: PhD in Molecular Medicine
+  description: |
+    <ul>
+      <li>Molecular genetics</li>
+      <li>Molecular genomics</li>
+      <li>Functional genomics</li>
+      <li>Molecular biology</li>
+      <li>Bioinformatics</li>
+    </ul>
+  grade: null
+  period: December 2007 - October 2010
 
-- institution: James Buchanan High School
-  award: Technology Magnet Program
-  department: null
-  grade: "GPA: 3.56"
+- institution: University of Milano - Bicocca (Italy)
+  award: Specialist degree in Bioinformatics
+  description: |
+    <ul>
+      <li>Biological Systems</li>
+      <li>Molecular Processes</li>
+      <li>Fundamentals of computer science</li>
+    </ul>
+  grade: 110 e Lode
+  period: 2004-2007
+
+- institution: University of Milano - Bicocca (Italy)
+  award: Degree in Biotechnologies
+  description: |
+    <ul>
+      <li>Biological Systems</li>
+      <li>Molecular Processes</li>
+      <li>Biotechnological techniques</li>
+      <li>English Language</li>
+    </ul>
+  grade: 99/110
+  period: 2000-2004
