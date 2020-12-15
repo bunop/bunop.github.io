@@ -1,0 +1,20 @@
+# those are font-awesome classes
+languages_and_tools:
+  - fa-html5
+  - fa-css3-alt
+  - fa-js-square
+  - fa-angular
+  - fa-react
+  - fa-node-js
+  - fa-sass
+  - fa-less
+  - fa-wordpress
+  - fa-gulp
+  - fa-grunt
+  - fa-npm
+
+workflows:
+  - Mobile-First, Responsive Design
+  - Cross Browser Testing & Debugging
+  - Cross Functional Teams
+  - Agile Development & Scrum
