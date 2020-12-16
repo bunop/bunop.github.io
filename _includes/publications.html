@@ -1,0 +1,18 @@
+
+<div class="resume-section-content">
+  <h2 class="mb-5">Publications</h2>
+  <ul class="fa-ul mb-0">
+    {% for item in site.data.publications %}
+      <li class="text-justify">
+        <span class="fa-li"><i class="fas fa-book-reader"></i></span>
+        {% if item.url %}
+          {{ item.citation }}, <a href="{{ item.url }}">{{ item.url }}</a>
+        {% elsif item.doi %}
+          {{ item.citation }}, <a href="https://doi.org/{{ item.doi }}">{{ item.doi }}</a>
+        {% else %}
+          {{ item.citation }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
