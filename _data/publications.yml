@@ -1,43 +1,82 @@
 
-- citation: M. Chialva, S. Ghignone, <span class="text-primary font-weight-bold">P. Cozzi</span>, B. Lazzari, P. Bonfante, P. Abbruscato, E. Lumini, "Water management and phenology influence the root-associated rice field microbiota", FEMS Microbiology Ecology, Volume 96, Issue 9, September 2020, fiaa146
-  url: https://doi.org/10.1093/femsec/fiaa146
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, J. Fan, A. Sokolov, O. Selmoni, E. Vajana, S. Joost, E. Groeneveld, P. Flicek, P. Harrison, A. Stella & the IMAGE Consortium "The Innovative Management of Animal Genetic Resources (IMAGE) unified data portal to integrate and represent European gene bank data" in Proceedings of 70th EAAP Annual Meeting, Ghent, Belgium, 26-30 August 2019
-- citation: J. Fan, <span class="text-primary font-weight-bold">P. Cozzi</span>, A Sokolov, O Selmoni, E. Vajana, S. Joost, E. Groeneveld, G. Cochrane, P. Flicek, P. W. Harrison, A. Stella & the IMAGE Consortium, "A metadata ruleset solution for the Innovative Management of Animal Genetic Resources (IMAGE) unification of European Gene Bank Data" in Proceedings of International Society for Animal Genetics Conference, Lleida, Spain, 7-12 July 2019
-- citation: F. Biscarini, B. Castiglioni, A. Stella, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Ianni, G. Masetti, P. Cremonesi, "Upgrading the pipeline to analyse 16S rRNA-gene sequencing data" in Proceedings of 23° Congresso dell'Associazione per la Scienza e le Produzioni Animali (ASPA), Sorrento, Italy, 11-13 June 2019
-- citation: 'J. Fan, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Vajana, E. Groeneveld, O. Selmoni, A. Stella, P. Harrison, P. Flicek, "Innovative Management of Animal Genetic Resources (IMAGE): Unifying European Gene Bank data" in Proceedings of Livestock Genomics Cambridge conference, Cambridge, UK, 21-22 September 2018'
-- citation: Maccaferri, M., Harris, N. S., Twardziok, S. O., Pasam, R. K., Gundlach, H., Spannagl, M., <span class="text-primary font-weight-bold">…</span>, Cattivelli, L. (2019). Durum wheat genome highlights past domestication signatures and future improvement targets. Nature Genetics, 51(5), 885–895
-  url: https://doi.org/10.1038/s41588-019-0381-3
-- citation: 'F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span> and P. Orozco‐ter Wengel, "Lessons learnt on the analysis of large sequence data in animal genomics". Anim Genet. Volume: 49 Issue: 3 Pages: 147-158'
-  doi: 10.1111/age.12655
-- citation: 'A. Volante, F. Desiderio, A. Tondelli, R. Perrini, G. Orasen, C. Biselli, P. Riccardi, A. Vattari, D. Cavalluzzo, S. Urso, M. Ben Hassen, A. Fricano, P. Piffanelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Biscarini, G. A. Sacchi, L. Cattivelli, G. Valè, "Genome-wide analysis of japonica rice performance under limited water and permanent flooding conditions", Frontiers in Plant Science, 8, 1862. Oct. 2017'
-  doi: 10.3389/fpls.2017.01862
-- citation: N. Nazzicari, F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. C. Brummer, and P. Annicchiarico, "Marker imputation efficiency for genotyping-by-sequencing data in rice (Oryza sativa) and alfalfa (Medicago sativa)," Mol. Breed., vol. 36, no. 6, pp. 1–16, 2016.
-- citation: F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Casella, P. Riccardi, A. Vattari, G. Orasen, R. Perrini, G. Tacconi, A. Tondelli, C. Biselli, L. Cattivelli, J. Spindel, S. McCouch, P. Abbruscato, G. Valé, P. Piffanelli, and R. Greco, "Genome-Wide Association Study for Traits Related to Plant and Grain Morphology, and Root Architecture in Temperate Rice Accessions.," PLoS One, vol. 11, no. 5, p. e0155425, Jan. 2016.
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, and G. Bernardi, "Segmenting the Human Genome into Isochores," Evol. Bioinforma., vol. 11, pp. 253–261, Nov. 2015.
-- citation: 'I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Ronchieri, D. Cesini, and D. D’Agostino, "Porting bioinformatics applications from grid to cloud: a macromolecular surface analysis application case study", Int. J. High Perform. Comput. Vol 31 (3), pp 182-195, Jun 2015'
-  doi: 10.1177/1094342015588565
-- citation: A. Volante, A. Tondelli, F. Biscarini, F. Desiderio, R. Perrini, <span class="text-primary font-weight-bold">P. Cozzi</span>, P. Riccardi, G. Orasen, C. Biselli, A. Vattari, D. Cavalluzzo, S. McCouch, P. Abbruscato, R. Greco, P. Piffanelli, L. Cattivelli, G. Valè, "GWA studies for rice adaptation to alternate wetting and drying water management system" in Proceedings of the Joint Congress SIBV-SIGA, Milano, Italy – 8/11 September, 2015
-- citation: 'E. L. Nicolazzi, A. Caprera, N. Nazzicari, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Strozzi, C. Lawley, A. Pirani, C. Soans, F. Brew, H. Jorjani, G. Evans, B. Simpson, G. Tosser-Klopp, R. Brauning, J. L. Williams and A. Stella, "SNPchiMp v.3: integrating and standardizing single nucleotide polymorphism data for livestock species", BMC Genomics. 2015 Apr 10;16(1):283'
-  doi: 10.1186/s12864-015-1497-1
-- citation: 'E. Ronchieri, D. Cesini, D. D&#39Agostino, V. Ciaschini, G. Dalla Torre, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. Salomoni, A. Clematis, L. Milanesi, I. Merelli, "The WNoDeS Cloud virtualization framework: a macromolecular surface analysis application case study" in Proceedings of 22nd Euromicro International Conference on Parallel, Distributed and network-based Processing (PDP), Turin, Italy, 12-14 February 2014'
-- citation: 'I. Merelli, A. Calabria, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Viti, E. Mosca and L. Milanesi, "SNPranker 2.0: a gene-centric data mining tool for diseases associated SNP prioritization in GWAS", BMC Bioinformatics 2013, 14(Suppl 1):S9'
-- citation: 'E. Lumini, S. Ghignone, P. Abbruscato, B. Lazzari, <span class="text-primary font-weight-bold">P. Cozzi</span>, M. Vallino, E. Lupotto, P. Piffanelli, P. Bonfante, "Multiple molecular approaches reveal how bacterial and fungal communities thrive in the rice rhizosphere" in Proceedings of the International Workshop: "Crop Improvement in a Changing Environment: the RISINNOVA Project for sustainable rice production in Italy", Venezia , Italy -29/30 October 2012'
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi and G. Bernardi, "Segmenting the human genome into isochores" in Proceedings of Evolution in the time of Genomics, Venezia, Italy. 7-9 May 2012
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi and G. Bernardi, "Segmenting the human genome" in Proceedings of Molecular Evolution in the Genomic Era, Roma, Italy. 29 September – 1 October 2011.
-- citation: F. Viti, I. Merelli, A. Calabria, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Mosca, R. Alfieri, L. Milanesi, "Ontology-based resources for bioinformatics analysis", International Journal of Metadata, Semantics and Ontologies, 2011, Volume 6 Issue 1, September 2011.
-- citation: A. Calabria, D. Di Pasquale, M. Gnocchi, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, G. Trombetti, L. Milanesi, "Grid Based Genome Wide Studies on Atrial Flutter", Journal of Grid Computing, 2010, 1-17
-- citation: 'Torri F, Akelai A, Lupoli S, Sironi M, Amann-Zalcenstein D, Fumagalli M, Dal Fiume C, Ben-Asher E, Kanyas K, Cagliani R, <span class="text-primary font-weight-bold">Cozzi P</span>, Trombetti G, Strik Lievers L, Salvi E, Orro A, Beckmann JS, Lancet D, Kohn Y, Milanesi L, Ebstein RB, Lerer B, Macciardi F, "Fine mapping of AHI1 as a schizophrenia susceptibility gene: from association to evolutionary evidence", FASEB J. 2010 Aug;24(8):3066-3082'
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, D. D’Agostino and L. Milanesi, "A parallel implementation of Genetic Algorithms for parameters estimation of Molecular Surfaces similarity analysis", in Proceedings of BITS 2010, Bari, Italy. 14-16 April, 2010.
-- citation: I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. D’Agostino, A. Clematis, L. Milanesi, "Image Based Surface Matching Algorithm Oriented to Structural Biology", in IEEE/ACM Transactions on Computational Biology and Bioinformatics, Volume PP, Issue 99, 1.
-- citation: D. D’Agostino, A. Clematis, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, "A Parallel Algorithm for Molecular Surface Matching Through Image representation", in Procedings of Parallel, Distributed and Network-Based Processing (PDP), 17-19 Feb. 2010.
-- citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Viti, I. Merelli and L. Milanesi, "Exploitation of a 3D-oriented ontology for choosing the representative proteins in protein surfaces comparison.", in Proceedings of FOCUS K3D Conference on Semantic 3D Media and Content, INRIA Sophia Antipolis %3A Méditerranée, France. 11-12 February 2010.
-- citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, "A Visualization ToolKit based application for representing macromolecular surfaces", in Lecture Notes in Computer Science 2009 Jun 23, Volume 5488/2009, 284-292'
-  doi: 10.1007/978-3-642-02504-4_26
-- citation: P. D'Ursi, F. Chiappori, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Rovida, L. Milanesi, "Virtual screening pipeline and ligand modelling for H5N1 neuraminidase", Biochem Biophys Res Commun. 2009 Jun 12;383(4):445-449.
-- citation: D. D’Agostino, A. Clematis, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span> and L. Milanesi, "Parallel Decomposition of 3D Surfaces in Images of Local Descriptors for Molecular Screening", in Parallel, Distributed and Network-based Processing, pp.261-267, 2009.
-- citation: 'A. Calabria, D. Di Pasquale, G. Trombetti, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, M, Gnocchi, L. Milanesi, "Genome Wide Linkage analysis and Systems Knowledge: an Integrated Web Framework for Distributed Excecution and Results Annotation", in: Proceedings of Sysbiohealth 2008, Bologna, 24-25 November 2008'
-- citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, A Visualization ToolKit based application for representing macromolecular surfaces., in: Proceedings of Computational Intelligence Methods For Bioinformatics And Biostatistic, Vietri sul Mare (Salerno), 3-4 October 2008.'
-- citation: I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. D’Agostino, A. Clematis and L. Milanesi, "Images Based System for Surface Matching in Macromolecular Screening", IEEE International Conference on Bioinformatics and Biomedicine, pp.397-401, 2008
-- citation: 'L. Milanesi, I. Merelli, G. Trombetti, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, "Functional Genomics Applications in Grid", in: Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine and Healtcare, Ed. Mario Catannaro. ed. IGI Global, p. 149, 168.'
-- citation: 'I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, "A reference database for protein surface comparison using grid technology", in: Proceedings of NETTAB, Santa Margherita di Pula, 10-13 July 2006.'
-- citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, Creazione di un database di supporto per analisi delle superfici proteiche tramite un approccio di calcolo ad alte prestazioni., in: Proceedings of AITIM, Torino, 11-13 December 2006.'
+journal_articles:
+  - citation: M. Chialva, S. Ghignone, <span class="text-primary font-weight-bold">P. Cozzi</span>, B. Lazzari, P. Bonfante, P. Abbruscato, E. Lumini, "Water management and phenology influence the root-associated rice field microbiota", FEMS Microbiology Ecology, Volume 96, Issue 9, September 2020, fiaa146
+    url: https://doi.org/10.1093/femsec/fiaa146
+
+  - citation: Maccaferri, M., Harris, N. S., Twardziok, S. O., Pasam, R. K., Gundlach, H., Spannagl, M., <span class="text-primary font-weight-bold">…</span>, Cattivelli, L. (2019). Durum wheat genome highlights past domestication signatures and future improvement targets. Nature Genetics, 51(5), 885–895
+    url: https://doi.org/10.1038/s41588-019-0381-3
+
+  - citation: 'F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span> and P. Orozco‐ter Wengel, "Lessons learnt on the analysis of large sequence data in animal genomics". Anim Genet. Volume: 49 Issue: 3 Pages: 147-158'
+    doi: 10.1111/age.12655
+
+  - citation: 'A. Volante, F. Desiderio, A. Tondelli, R. Perrini, G. Orasen, C. Biselli, P. Riccardi, A. Vattari, D. Cavalluzzo, S. Urso, M. Ben Hassen, A. Fricano, P. Piffanelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Biscarini, G. A. Sacchi, L. Cattivelli, G. Valè, "Genome-wide analysis of japonica rice performance under limited water and permanent flooding conditions", Frontiers in Plant Science, 8, 1862. Oct. 2017'
+    doi: 10.3389/fpls.2017.01862
+
+  - citation: N. Nazzicari, F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. C. Brummer, and P. Annicchiarico, "Marker imputation efficiency for genotyping-by-sequencing data in rice (Oryza sativa) and alfalfa (Medicago sativa)," Mol. Breed., vol. 36, no. 6, pp. 1–16, 2016.
+
+  - citation: F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Casella, P. Riccardi, A. Vattari, G. Orasen, R. Perrini, G. Tacconi, A. Tondelli, C. Biselli, L. Cattivelli, J. Spindel, S. McCouch, P. Abbruscato, G. Valé, P. Piffanelli, and R. Greco, "Genome-Wide Association Study for Traits Related to Plant and Grain Morphology, and Root Architecture in Temperate Rice Accessions.," PLoS One, vol. 11, no. 5, p. e0155425, Jan. 2016.
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, and G. Bernardi, "Segmenting the Human Genome into Isochores," Evol. Bioinforma., vol. 11, pp. 253–261, Nov. 2015.
+
+  - citation: 'I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Ronchieri, D. Cesini, and D. D’Agostino, "Porting bioinformatics applications from grid to cloud: a macromolecular surface analysis application case study", Int. J. High Perform. Comput. Vol 31 (3), pp 182-195, Jun 2015'
+    doi: 10.1177/1094342015588565
+
+  - citation: 'E. L. Nicolazzi, A. Caprera, N. Nazzicari, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Strozzi, C. Lawley, A. Pirani, C. Soans, F. Brew, H. Jorjani, G. Evans, B. Simpson, G. Tosser-Klopp, R. Brauning, J. L. Williams and A. Stella, "SNPchiMp v.3: integrating and standardizing single nucleotide polymorphism data for livestock species", BMC Genomics. 2015 Apr 10;16(1):283'
+    doi: 10.1186/s12864-015-1497-1
+
+  - citation: 'I. Merelli, A. Calabria, <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Viti, E. Mosca and L. Milanesi, "SNPranker 2.0: a gene-centric data mining tool for diseases associated SNP prioritization in GWAS", BMC Bioinformatics 2013, 14(Suppl 1):S9'
+
+  - citation: F. Viti, I. Merelli, A. Calabria, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Mosca, R. Alfieri, L. Milanesi, "Ontology-based resources for bioinformatics analysis", International Journal of Metadata, Semantics and Ontologies, 2011, Volume 6 Issue 1, September 2011.
+
+  - citation: A. Calabria, D. Di Pasquale, M. Gnocchi, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, G. Trombetti, L. Milanesi, "Grid Based Genome Wide Studies on Atrial Flutter", Journal of Grid Computing, 2010, 1-17
+
+  - citation: 'Torri F, Akelai A, Lupoli S, Sironi M, Amann-Zalcenstein D, Fumagalli M, Dal Fiume C, Ben-Asher E, Kanyas K, Cagliani R, <span class="text-primary font-weight-bold">Cozzi P</span>, Trombetti G, Strik Lievers L, Salvi E, Orro A, Beckmann JS, Lancet D, Kohn Y, Milanesi L, Ebstein RB, Lerer B, Macciardi F, "Fine mapping of AHI1 as a schizophrenia susceptibility gene: from association to evolutionary evidence", FASEB J. 2010 Aug;24(8):3066-3082'
+
+  - citation: I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. D’Agostino, A. Clematis, L. Milanesi, "Image Based Surface Matching Algorithm Oriented to Structural Biology", in IEEE/ACM Transactions on Computational Biology and Bioinformatics, Volume PP, Issue 99, 1.
+
+  - citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, "A Visualization ToolKit based application for representing macromolecular surfaces", in Lecture Notes in Computer Science 2009 Jun 23, Volume 5488/2009, 284-292'
+    doi: 10.1007/978-3-642-02504-4_26
+
+  - citation: P. D'Ursi, F. Chiappori, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Rovida, L. Milanesi, "Virtual screening pipeline and ligand modelling for H5N1 neuraminidase", Biochem Biophys Res Commun. 2009 Jun 12;383(4):445-449.
+
+  - citation: D. D’Agostino, A. Clematis, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span> and L. Milanesi, "Parallel Decomposition of 3D Surfaces in Images of Local Descriptors for Molecular Screening", in Parallel, Distributed and Network-based Processing, pp.261-267, 2009.
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, "A Visualization ToolKit based application for representing macromolecular surfaces", in Lecture Notes in Computer Science 2009 Jun 23, Volume 5488/2009, 284-292
+    doi: 10.1007/978-3-642-02504-4_26.
+
+  - citation: I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. D’Agostino, A. Clematis and L. Milanesi, "Images Based System for Surface Matching in Macromolecular Screening", IEEE International Conference on Bioinformatics and Biomedicine, pp.397-401, 2008
+
+  - citation: 'L. Milanesi, I. Merelli, G. Trombetti, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, "Functional Genomics Applications in Grid", in: Handbook of Research on Computational Grid Technologies for Life Sciences, Biomedicine and Healtcare, Ed. Mario Catannaro. ed. IGI Global, p. 149, 168.'
+
+
+proceedings:
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, J. Fan, A. Sokolov, O. Selmoni, E. Vajana, S. Joost, E. Groeneveld, P. Flicek, P. Harrison, A. Stella & the IMAGE Consortium "The Innovative Management of Animal Genetic Resources (IMAGE) unified data portal to integrate and represent European gene bank data" in Proceedings of 70th EAAP Annual Meeting, Ghent, Belgium, 26-30 August 2019
+
+  - citation: J. Fan, <span class="text-primary font-weight-bold">P. Cozzi</span>, A Sokolov, O Selmoni, E. Vajana, S. Joost, E. Groeneveld, G. Cochrane, P. Flicek, P. W. Harrison, A. Stella & the IMAGE Consortium, "A metadata ruleset solution for the Innovative Management of Animal Genetic Resources (IMAGE) unification of European Gene Bank Data" in Proceedings of International Society for Animal Genetics Conference, Lleida, Spain, 7-12 July 2019
+
+  - citation: F. Biscarini, B. Castiglioni, A. Stella, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Ianni, G. Masetti, P. Cremonesi, "Upgrading the pipeline to analyse 16S rRNA-gene sequencing data" in Proceedings of 23° Congresso dell'Associazione per la Scienza e le Produzioni Animali (ASPA), Sorrento, Italy, 11-13 June 2019
+
+  - citation: 'J. Fan, <span class="text-primary font-weight-bold">P. Cozzi</span>, E. Vajana, E. Groeneveld, O. Selmoni, A. Stella, P. Harrison, P. Flicek, "Innovative Management of Animal Genetic Resources (IMAGE): Unifying European Gene Bank data" in Proceedings of Livestock Genomics Cambridge conference, Cambridge, UK, 21-22 September 2018'
+
+  - citation: A. Volante, A. Tondelli, F. Biscarini, F. Desiderio, R. Perrini, <span class="text-primary font-weight-bold">P. Cozzi</span>, P. Riccardi, G. Orasen, C. Biselli, A. Vattari, D. Cavalluzzo, S. McCouch, P. Abbruscato, R. Greco, P. Piffanelli, L. Cattivelli, G. Valè, "GWA studies for rice adaptation to alternate wetting and drying water management system" in Proceedings of the Joint Congress SIBV-SIGA, Milano, Italy – 8/11 September, 2015
+
+  - citation: 'E. Ronchieri, D. Cesini, D. D&#39Agostino, V. Ciaschini, G. Dalla Torre, <span class="text-primary font-weight-bold">P. Cozzi</span>, D. Salomoni, A. Clematis, L. Milanesi, I. Merelli, "The WNoDeS Cloud virtualization framework: a macromolecular surface analysis application case study" in Proceedings of 22nd Euromicro International Conference on Parallel, Distributed and network-based Processing (PDP), Turin, Italy, 12-14 February 2014'
+
+  - citation: 'E. Lumini, S. Ghignone, P. Abbruscato, B. Lazzari, <span class="text-primary font-weight-bold">P. Cozzi</span>, M. Vallino, E. Lupotto, P. Piffanelli, P. Bonfante, "Multiple molecular approaches reveal how bacterial and fungal communities thrive in the rice rhizosphere" in Proceedings of the International Workshop: "Crop Improvement in a Changing Environment: the RISINNOVA Project for sustainable rice production in Italy", Venezia , Italy -29/30 October 2012'
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi and G. Bernardi, "Segmenting the human genome into isochores" in Proceedings of Evolution in the time of Genomics, Venezia, Italy. 7-9 May 2012
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi and G. Bernardi, "Segmenting the human genome" in Proceedings of Molecular Evolution in the Genomic Era, Roma, Italy. 29 September – 1 October 2011.
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, D. D’Agostino and L. Milanesi, "A parallel implementation of Genetic Algorithms for parameters estimation of Molecular Surfaces similarity analysis", in Proceedings of BITS 2010, Bari, Italy. 14-16 April, 2010.
+
+  - citation: D. D’Agostino, A. Clematis, I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, "A Parallel Algorithm for Molecular Surface Matching Through Image representation", in Procedings of Parallel, Distributed and Network-Based Processing (PDP), 17-19 Feb. 2010.
+
+  - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, F. Viti, I. Merelli and L. Milanesi, "Exploitation of a 3D-oriented ontology for choosing the representative proteins in protein surfaces comparison.", in Proceedings of FOCUS K3D Conference on Semantic 3D Media and Content, INRIA Sophia Antipolis %3A Méditerranée, France. 11-12 February 2010.
+  - citation: 'A. Calabria, D. Di Pasquale, G. Trombetti, <span class="text-primary font-weight-bold">P. Cozzi</span>, A. Orro, M, Gnocchi, L. Milanesi, "Genome Wide Linkage analysis and Systems Knowledge: an Integrated Web Framework for Distributed Excecution and Results Annotation", in: Proceedings of Sysbiohealth 2008, Bologna, 24-25 November 2008'
+
+  - citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, A Visualization ToolKit based application for representing macromolecular surfaces., in: Proceedings of Computational Intelligence Methods For Bioinformatics And Biostatistic, Vietri sul Mare (Salerno), 3-4 October 2008.'
+
+  - citation: 'I. Merelli, <span class="text-primary font-weight-bold">P. Cozzi</span>, L. Milanesi, "A reference database for protein surface comparison using grid technology", in: Proceedings of NETTAB, Santa Margherita di Pula, 10-13 July 2006.'
+
+  - citation: '<span class="text-primary font-weight-bold">P. Cozzi</span>, I. Merelli, L. Milanesi, Creazione di un database di supporto per analisi delle superfici proteiche tramite un approccio di calcolo ad alte prestazioni., in: Proceedings of AITIM, Torino, 11-13 December 2006.'
