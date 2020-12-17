@@ -1,0 +1,8 @@
+<div class="resume-section-content">
+  <h2 class="mb-5">Interests</h2>
+  {% for item in site.data.interests %}
+  <p class="{% if forloop.last %}mb-0{% endif %}">
+    {{ item }}
+  </p>
+  {% endfor %}
+</div>

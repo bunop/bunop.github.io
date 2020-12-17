@@ -3,12 +3,13 @@ surname: Cozzi
 address: Nerviano 20014 (MI), Italy
 email: paoloalessandro.cozzi@gmail.com
 about: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  I'm a bioinformatician with a passion in programming applications that could
+  be useful in biological problems. My research activities concern
+  the development of softwares for doing bioinformatic analyses, genomic annotations,
+  data management and visualization under linux environment. I have experience
+  in software optimization, HPC infrastructures, databases,
+  linux system administration and web applications. I'm interested in
+  the open-source community and in improving my developer skills.
 linkedin: https://www.linkedin.com/in/cozzipaolo/
 github: https://github.com/bunop
 twitter: null
