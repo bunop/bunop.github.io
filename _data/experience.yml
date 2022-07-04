@@ -1,10 +1,19 @@
+- position: Researcher
+  company: National Research Council - Institute of Agricultural Biology and Biotechnology
+  description: |
+    Bioinformatic analyses and software development in the field of animal and plant
+    Genomics. Web development and data visualization with responsive applications.
+    Databases management and software development using the Continuous integration
+    approach. IT infrastructure configuration and management.
+  period: February 2022 - Present
+
 - position: Graduate Research Fellow
   company: National Research Council - Institute of Agricultural Biology and Biotechnology
   description: |
     Web development and data visualization with responsive applications.
     Databases management and software development using the Continuous integration
     approach. IT infrastructure configuration and management.
-  period: October 2019 - Present
+  period: October 2019 - December 2021
 
 - position: Graduate Research Fellow
   company: National Research Council - Institute of biomedical technologies
@@ -17,8 +26,8 @@
 - position: Bioinformatician
   company: Parco Tecnologico Padano
   description: |
-    Involved in bioinformatic analyses with the core bioinformatic team and developed
-    specific pipelines to address customer specific problems.
+    Involved in bioinformatic analyses with the core bioinformatic team and developer
+    of specific pipelines to address customer specific problems.
     IT infrastructure management and administration.
     Performed genomic annotations and supported the rice group in bioinformatic
     analyses.
@@ -27,8 +36,8 @@
 - position: Bioinformatician
   company: National Research Council - Institute of biomedical technologies
   description: |
-    Involved in development of a software for detecting similarities between
-    proteing relying on molecular surfaces using a computer vision technique.
+    Involved in software development with the aim to detect similarities between
+    protein relying on molecular surfaces using a computer vision technique.
     Develop and perform bioinformatic calculations on HPC and EGEE GRID
     environment.
   period: July 2007 - November 2010
