@@ -8,6 +8,8 @@
         {{ item.name }}, {{ item.period }}<br>
         {% if item.license_id %}
           {{ item.emitter }}, <a href="{{ item.license_url }}{{ item.license_id }}/">{{ item.license_id }}</a>
+        {% elsif item.license_file %}
+          {{ item.emitter }}, <a href="{{ item.license_file }}"> download certificate <span class="fas fa-download"></span></a>
         {% else %}
           {{ item.emitter }}
         {% endif %}

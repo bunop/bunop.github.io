@@ -1,5 +1,11 @@
 
 journal_articles:
+  - citation: Manunza A, Diaz JR, Sayre BL, <span class="text-primary font-weight-bold">Cozzi P</span>, Bobbo T, Deniskova T, Dotsev A, Zinovieva N, Stella A (2023) Discovering novel clues of natural selection on four worldwide goat breeds. Sci Rep 13:1–19.
+    url: https://doi.org/10.1038/s41598-023-27490-x
+
+  - citation: 'Lorenzini EC, Lazzari B, Tartaglia GM, Farronato G, Lanteri V, Botti S, Biscarini F, <span class="text-primary font-weight-bold">Cozzi P</span>, Stella A (2022) Oral ecological environment modifications by hard-cheese: from pH to microbiome: a prospective cohort study based on 16S rRNA metabarcoding approach. J Transl Med 20:312.'
+    url: https://doi.org/10.1186/s12967-022-03506-4
+
   - citation: M. Chialva, S. Ghignone, <span class="text-primary font-weight-bold">P. Cozzi</span>, B. Lazzari, P. Bonfante, P. Abbruscato, E. Lumini, "Water management and phenology influence the root-associated rice field microbiota", FEMS Microbiology Ecology, Volume 96, Issue 9, September 2020, fiaa146
     url: https://doi.org/10.1093/femsec/fiaa146
 

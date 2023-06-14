@@ -1,6 +1,7 @@
 # those are font-awesome classes
 languages_and_tools:
   - fa-python
+  - fa-r-project
   - fa-git
   - fa-github
   - fa-docker
@@ -18,3 +19,5 @@ workflows:
   - HPC
   - Responsive Design
   - Continuous integration and continuous delivery
+  - DevOps
+  - Nexflow pipelines and modules development

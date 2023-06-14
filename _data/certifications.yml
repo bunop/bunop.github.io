@@ -1,6 +1,19 @@
 
+- name: Python for Machine Learning & Data Science Masterclass
+  emitter: Udemy Verified Certificate
+  license_id: UC-e27cfa60-d67c-487b-8112-3ed5479aff7d
+  license_url: https://www.udemy.com/certificate/
+  period: February 2023
+
+- name: Angular (Full App) with Angular Material, Angularfire & NgRx
+  emitter: Udemy Verified Certificate
+  license_id: UC-832d72b6-9aaf-40d6-be45-5f770493c8c2
+  license_url: https://www.udemy.com/certificate/
+  period: July 2021
+
 - name: The Use of GIS in animal disease response
   emitter: <a href="https://learning.izsvenezie.it">learning.izsvenezie.it</a>
+  license_file: assets/certificates/izsvenezie.pdf
   period: May 2021
 
 - name: MongoDB - The Complete Developer's Guide 2021
@@ -214,6 +227,7 @@
 - name: INNOVAGEN Winter School
   emitter: Università Cattolica del Sacro Cuore di Piacenza
   period: 21 January 2013 - 1 February 2013
+  license_file: assets/certificates/A06_INNOVAGEN_certificato_frequenza.pdf
 
 - name: Biomed Grid School
   emitter: Varenna, Italy
@@ -222,3 +236,4 @@
 - name: Biomed GRID School
   emitter: Varenna, Italy
   period: 14-19 May 2007
+  license_file: assets/certificates/A01_GRID_certificato_frequenza.pdf
