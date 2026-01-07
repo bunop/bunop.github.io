@@ -41,7 +41,31 @@
     }
   }
 
-  const safeUsername = escapeHtml(config.username || '');
+  /**
+   * Build and display fallback message when posts cannot be loaded
+   */
+  function showFallbackMessage() {
+    const safeUsername = escapeHtml(config.username || '');
+    const encodedUsername = encodeURIComponent(config.username || '');
+    
+    const fallbackLink = document.createElement('a');
+    fallbackLink.href = `https://medium.com/@${encodedUsername}`;
+    fallbackLink.target = '_blank';
+    fallbackLink.textContent = safeUsername || 'my Medium profile';
+    
+    const fallbackDiv = document.createElement('div');
+    fallbackDiv.className = 'col-12';
+    const fallbackP = document.createElement('p');
+    fallbackP.className = 'text-muted';
+    fallbackP.textContent = 'Unable to load Medium posts. Visit ';
+    fallbackP.appendChild(fallbackLink);
+    fallbackP.appendChild(document.createTextNode('.'));
+    fallbackDiv.appendChild(fallbackP);
+    
+    container.innerHTML = '';
+    container.appendChild(fallbackDiv);
+  }
+
   const encodedUsername = encodeURIComponent(config.username || '');
 
   fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${encodedUsername}`)
@@ -49,23 +73,7 @@
     .then(data => {
       // Validate response structure before accessing items
       if (!data || !Array.isArray(data.items) || data.items.length === 0) {
-        // Build fallback message safely
-        const fallbackLink = document.createElement('a');
-        fallbackLink.href = `https://medium.com/@${encodedUsername}`;
-        fallbackLink.target = '_blank';
-        fallbackLink.textContent = safeUsername || 'my Medium profile';
-        
-        const fallbackDiv = document.createElement('div');
-        fallbackDiv.className = 'col-12';
-        const fallbackP = document.createElement('p');
-        fallbackP.className = 'text-muted';
-        fallbackP.textContent = 'Unable to load Medium posts. Visit ';
-        fallbackP.appendChild(fallbackLink);
-        fallbackP.appendChild(document.createTextNode('.'));
-        fallbackDiv.appendChild(fallbackP);
-        
-        container.innerHTML = '';
-        container.appendChild(fallbackDiv);
+        showFallbackMessage();
         return;
       }
 
@@ -136,22 +144,6 @@
       container.innerHTML = articles.join('');
     })
     .catch(err => {
-      // Build fallback message safely
-      const fallbackLink = document.createElement('a');
-      fallbackLink.href = `https://medium.com/@${encodedUsername}`;
-      fallbackLink.target = '_blank';
-      fallbackLink.textContent = safeUsername || 'my Medium profile';
-      
-      const fallbackDiv = document.createElement('div');
-      fallbackDiv.className = 'col-12';
-      const fallbackP = document.createElement('p');
-      fallbackP.className = 'text-muted';
-      fallbackP.textContent = 'Unable to load Medium posts. Visit ';
-      fallbackP.appendChild(fallbackLink);
-      fallbackP.appendChild(document.createTextNode('.'));
-      fallbackDiv.appendChild(fallbackP);
-      
-      container.innerHTML = '';
-      container.appendChild(fallbackDiv);
+      showFallbackMessage();
     });
 })();
