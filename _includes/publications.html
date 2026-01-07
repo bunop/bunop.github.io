@@ -36,21 +36,23 @@
     {% endfor %}
   </ul>
 
-  <h3 class="mt-4">Blog posts on Medium.com</h3>
+  {% if site.data.publications.medium_blog.enabled %}
+  <h3 class="mt-4">{{ site.data.publications.medium_blog.title }}</h3>
 
   {% comment %}
-    see https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+    Using RSS2JSON API to display individual Medium posts
+    Configuration in _data/publications.yml
+    JavaScript implementation in assets/js/medium-widget.js
+    see https://rss2json.com/
   {% endcomment %}
 
-  <div
-    id="retainable-rss-embed"
-    data-rss="https://medium.com/feed/@paolo-cozzi"
-    data-maxcols="3"
-    data-layout="grid"
-    data-poststyle="inline"
-    data-readmore="Read the rest"
-    data-buttonclass="btn btn-primary"
-    data-offset="-100">
+  <div id="medium-widget"
+       class="row mt-3"
+       data-username="{{ site.data.publications.medium_blog.username }}"
+       data-max-posts="{{ site.data.publications.medium_blog.max_posts }}"
+       data-locale="{{ site.data.publications.medium_blog.locale }}"
+       data-fallback-image="{{ site.data.publications.medium_blog.fallback_image }}">
   </div>
+  {% endif %}
 
 </div>

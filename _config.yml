@@ -2,6 +2,10 @@ url: "https://bunop.github.io" # the base hostname & protocol for your site, e.g
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Paolo Cozzi Personal WebSite" # the name of your site, e.g. ACME Corp.
 
+exclude:
+  - node_modules
+  - vendor
+
 sass:
   load_paths:
     - _sass

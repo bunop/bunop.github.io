@@ -9,5 +9,7 @@ gem "jekyll"
 
 # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 group :jekyll_plugins do
-  gem 'github-pages', "~> 226"
+  gem 'github-pages'
 end
+
+gem "bundler-audit", "~> 0.9.3", :group => :development

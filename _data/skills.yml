@@ -21,3 +21,9 @@ workflows:
   - Continuous integration and continuous delivery
   - DevOps
   - Nexflow pipelines and modules development
+  - Nanopore pipelines development
+
+general:
+  - Data analysis and visualization
+  - Scientific programming
+  - Automation scripts

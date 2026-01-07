@@ -1,16 +1,37 @@
 
-journal_articles:
-  - citation: Manunza A, Diaz JR, Sayre BL, <span class="text-primary font-weight-bold">Cozzi P</span>, Bobbo T, Deniskova T, Dotsev A, Zinovieva N, Stella A (2023) Discovering novel clues of natural selection on four worldwide goat breeds. Sci Rep 13:1–19.
-    url: https://doi.org/10.1038/s41598-023-27490-x
+# Medium blog configuration
+medium_blog:
+  enabled: true
+  title: "Blog posts on Medium.com"
+  username: "paolo-cozzi"
+  max_posts: 6
+  locale: "it-IT"
+  fallback_image: "https://cdn-images-1.medium.com/max/1200/1*6_fgYnisCa9V21mymySIvA.png"
 
-  - citation: 'Lorenzini EC, Lazzari B, Tartaglia GM, Farronato G, Lanteri V, Botti S, Biscarini F, <span class="text-primary font-weight-bold">Cozzi P</span>, Stella A (2022) Oral ecological environment modifications by hard-cheese: from pH to microbiome: a prospective cohort study based on 16S rRNA metabarcoding approach. J Transl Med 20:312.'
-    url: https://doi.org/10.1186/s12967-022-03506-4
+journal_articles:
+  - citation: Manunza A, <span class="text-primary font-weight-bold">Cozzi P</span>, Boettcher P, Curik I, Looft C, Colli L, Sölkner J, Mészáros G and Stella A (2025) "Estimating the optimal number of samples to determine the effective population size in livestock". Front. Genet. 16:1588986.
+    doi: 10.3389/fgene.2025.1588986
+
+  - citation: Ramírez-Díaz J, Bobbo T, Guldbrandtsen B, Schönherz AA, <span class="text-primary font-weight-bold">Cozzi P</span>, Kusza S, Sahana G, Stella A and Manunza A (2025) "Exploring the complex population structure and admixture of four local Hungarian sheep breeds". Front. Genet. 16:1507315.
+    doi: 10.3389/fgene.2025.1507315
+
+  - citation: Capra E, Lazzari B, <span class="text-primary font-weight-bold">Cozzi P</span>, Turri F, Negrini R, Ajmone-Marsan P and Stella A (2025) Defining bovine CpG epigenetic diversity by analyzing RRBS data from sperm of Montbéliarde and Holstein bulls. Front. Cell Dev. Biol. 13:1532711.
+    doi: 10.3389/fcell.2025.1532711
+
+  - citation: <span class="text-primary font-weight-bold">Paolo Cozzi</span>, Arianna Manunza, Johanna Ramirez-Diaz, Valentina Tsartsianidou, Konstantinos Gkagkavouzis, Pablo Peraza, Anna Maria Johansson,Juan José Arranz, Fernando Freire, Szilvia Kusza, Filippo Biscarini, Lucy Peters, Gwenola Tosser-Klopp,Gabriel Ciappesoni, Alexandros Triantafyllidis, Rachel Rupp, Bertrand Servin, Alessandra Stella,"SMARTER-database&colon; a tool to integrate SNP array datasets for sheep and goat breeds", Gigabyte, 2024
+    doi: 10.46471/gigabyte.139
+
+  - citation: Manunza A, Diaz JR, Sayre BL, <span class="text-primary font-weight-bold">Cozzi P</span>, Bobbo T, Deniskova T, Dotsev A, Zinovieva N, Stella A (2023) "Discovering novel clues of natural selection on four worldwide goat breeds". Sci Rep 13:1–19.
+    doi: 10.1038/s41598-023-27490-x
+
+  - citation: 'Lorenzini EC, Lazzari B, Tartaglia GM, Farronato G, Lanteri V, Botti S, Biscarini F, <span class="text-primary font-weight-bold">Cozzi P</span>, Stella A (2022) "Oral ecological environment modifications by hard-cheese: from pH to microbiome: a prospective cohort study based on 16S rRNA metabarcoding approach". J Transl Med 20:312.'
+    doi: 10.1186/s12967-022-03506-4
 
   - citation: M. Chialva, S. Ghignone, <span class="text-primary font-weight-bold">P. Cozzi</span>, B. Lazzari, P. Bonfante, P. Abbruscato, E. Lumini, "Water management and phenology influence the root-associated rice field microbiota", FEMS Microbiology Ecology, Volume 96, Issue 9, September 2020, fiaa146
-    url: https://doi.org/10.1093/femsec/fiaa146
+    doi: 10.1093/femsec/fiaa146
 
-  - citation: Maccaferri, M., Harris, N. S., Twardziok, S. O., Pasam, R. K., Gundlach, H., Spannagl, M., <span class="text-primary font-weight-bold">…</span>, Cattivelli, L. (2019). Durum wheat genome highlights past domestication signatures and future improvement targets. Nature Genetics, 51(5), 885–895
-    url: https://doi.org/10.1038/s41588-019-0381-3
+  - citation: Maccaferri, M., Harris, N. S., Twardziok, S. O., Pasam, R. K., Gundlach, H., Spannagl, M., <span class="text-primary font-weight-bold">…</span>, Cattivelli, L. (2019). "Durum wheat genome highlights past domestication signatures and future improvement targets". Nature Genetics, 51(5), 885–895
+    doi: 10.1038/s41588-019-0381-3
 
   - citation: 'F. Biscarini, <span class="text-primary font-weight-bold">P. Cozzi</span> and P. Orozco‐ter Wengel, "Lessons learnt on the analysis of large sequence data in animal genomics". Anim Genet. Volume: 49 Issue: 3 Pages: 147-158'
     doi: 10.1111/age.12655
@@ -56,6 +77,10 @@ journal_articles:
 
 
 proceedings:
+  - citation: Biscarini Filippo; <span class="text-primary font-weight-bold">Cozzi Paolo</span>; RamirezDíaz Johanna; Stella Alessandra; Manunza Arianna, "Detection of heterozygosity-rich regions (HRRs) in the genome of domestic ruminants&colon; which parameters for which breed" in Proceedings of 25th Congresso ASPA (Associazione per la Scienza e le Produzioni Animali), Monopoli, Italy, 13-16 June 2023
+
+  - citation: Biscarini, F; Manunza, A; <span class="text-primary font-weight-bold">Cozzi, P</span>; Stella, A, "Common heterozygosity-rich regions across the genomes of commercial and local goat breeds" in Proceedings of 12th World Congress on Genetics Applied to Livestock Production (WCGALP), Rotterdam, The Netherlands, 3-8 July 2022
+
   - citation: <span class="text-primary font-weight-bold">P. Cozzi</span>, J. Fan, A. Sokolov, O. Selmoni, E. Vajana, S. Joost, E. Groeneveld, P. Flicek, P. Harrison, A. Stella & the IMAGE Consortium "The Innovative Management of Animal Genetic Resources (IMAGE) unified data portal to integrate and represent European gene bank data" in Proceedings of 70th EAAP Annual Meeting, Ghent, Belgium, 26-30 August 2019
 
   - citation: J. Fan, <span class="text-primary font-weight-bold">P. Cozzi</span>, A Sokolov, O Selmoni, E. Vajana, S. Joost, E. Groeneveld, G. Cochrane, P. Flicek, P. W. Harrison, A. Stella & the IMAGE Consortium, "A metadata ruleset solution for the Innovative Management of Animal Genetic Resources (IMAGE) unification of European Gene Bank Data" in Proceedings of International Society for Animal Genetics Conference, Lleida, Spain, 7-12 July 2019
