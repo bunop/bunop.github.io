@@ -2,7 +2,7 @@
 # bunop.github.io - personal site
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bunop/bunop.github.io/Build%20and%20deploy%20Jekyll%20site%20to%20GitHub%20Pages?label=Github%20WorkFlow)
+[![Build and Deploy](https://img.shields.io/github/actions/workflow/status/bunop/bunop.github.io/github-pages.yml?branch=master&label=Build%20and%20Deploy)](https://github.com/bunop/bunop.github.io/actions/workflows/github-pages.yml)
 [![GitHub deployments](https://img.shields.io/github/deployments/bunop/bunop.github.io/github-pages?label=Github%20Pages)](https://bunop.github.io/)
 
 This is the repository of my personal site at GitHub. It was developed
