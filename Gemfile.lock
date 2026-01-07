@@ -258,6 +258,7 @@ GEM
 PLATFORMS
   ruby
   x86_64-linux
+  x86_64-linux-gnu
 
 DEPENDENCIES
   github-pages (~> 226)
