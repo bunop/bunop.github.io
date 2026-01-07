@@ -17,18 +17,6 @@
   };
 
   /**
-   * Escape HTML special characters to prevent XSS
-   */
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
-  }
-
-  /**
    * Validate that URL uses safe protocol (http/https)
    */
   function isSafeUrl(url) {
@@ -119,10 +107,6 @@
         const doc = parser.parseFromString(post.description || post.content || '', 'text/html');
         const description = (doc.body.textContent || '').substring(0, 150).trim() + '...';
 
-        // Escape text content for safe display
-        const safeTitle = escapeHtml(post.title || 'Untitled');
-        const safeDescription = escapeHtml(description);
-
         // Create article card using DOM methods for safer URL handling
         const colDiv = document.createElement('div');
         colDiv.className = 'col-md-4 mb-4';
@@ -133,7 +117,7 @@
         const img = document.createElement('img');
         img.setAttribute('src', thumbnail);
         img.className = 'card-img-top';
-        img.setAttribute('alt', safeTitle);
+        img.setAttribute('alt', post.title || 'Untitled');
         img.style.cssText = 'object-fit: cover; height: 200px;';
         
         const cardBody = document.createElement('div');
