@@ -29,12 +29,12 @@
     }
   }
 
+  const encodedUsername = encodeURIComponent(config.username || '');
+
   /**
    * Build and display fallback message when posts cannot be loaded
    */
   function showFallbackMessage() {
-    const encodedUsername = encodeURIComponent(config.username || '');
-    
     const fallbackLink = document.createElement('a');
     fallbackLink.href = `https://medium.com/@${encodedUsername}`;
     fallbackLink.target = '_blank';
@@ -49,11 +49,8 @@
     fallbackP.appendChild(document.createTextNode('.'));
     fallbackDiv.appendChild(fallbackP);
     
-    container.innerHTML = '';
-    container.appendChild(fallbackDiv);
+    container.replaceChildren(fallbackDiv);
   }
-
-  const encodedUsername = encodeURIComponent(config.username || '');
 
   fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${encodedUsername}`)
     .then(res => res.json())
@@ -155,8 +152,7 @@
       });
 
       // Clear container and append all articles
-      container.innerHTML = '';
-      articles.forEach(article => container.appendChild(article));
+      container.replaceChildren(...articles);
     })
     .catch(err => {
       showFallbackMessage();
