@@ -35,20 +35,25 @@
    * Build and display fallback message when posts cannot be loaded
    */
   function showFallbackMessage() {
-    const fallbackLink = document.createElement('a');
-    fallbackLink.href = `https://medium.com/@${encodedUsername}`;
-    fallbackLink.target = '_blank';
-    fallbackLink.textContent = config.username || 'my Medium profile';
-    
     const fallbackDiv = document.createElement('div');
     fallbackDiv.className = 'col-12';
     const fallbackP = document.createElement('p');
     fallbackP.className = 'text-muted';
-    fallbackP.textContent = 'Unable to load Medium posts. Visit ';
-    fallbackP.appendChild(fallbackLink);
-    fallbackP.appendChild(document.createTextNode('.'));
-    fallbackDiv.appendChild(fallbackP);
     
+    if (config.username) {
+      const fallbackLink = document.createElement('a');
+      fallbackLink.href = `https://medium.com/@${encodedUsername}`;
+      fallbackLink.target = '_blank';
+      fallbackLink.textContent = config.username;
+      
+      fallbackP.textContent = 'Unable to load Medium posts. Visit ';
+      fallbackP.appendChild(fallbackLink);
+      fallbackP.appendChild(document.createTextNode('.'));
+    } else {
+      fallbackP.textContent = 'Unable to load Medium posts.';
+    }
+    
+    fallbackDiv.appendChild(fallbackP);
     container.replaceChildren(fallbackDiv);
   }
 
