@@ -44,15 +44,28 @@
   const safeUsername = escapeHtml(config.username || '');
   const encodedUsername = encodeURIComponent(config.username || '');
 
-  // Build fallback message dynamically
-  const fallbackMessage = `Unable to load Medium posts. Visit <a href="https://medium.com/@${encodedUsername}" target="_blank">${safeUsername ? safeUsername : 'my Medium profile'}</a>.`;
-
   fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${encodedUsername}`)
     .then(res => res.json())
     .then(data => {
       // Validate response structure before accessing items
       if (!data || !Array.isArray(data.items) || data.items.length === 0) {
-        container.innerHTML = `<div class="col-12"><p class="text-muted">${fallbackMessage}</p></div>`;
+        // Build fallback message safely
+        const fallbackLink = document.createElement('a');
+        fallbackLink.href = `https://medium.com/@${encodedUsername}`;
+        fallbackLink.target = '_blank';
+        fallbackLink.textContent = safeUsername || 'my Medium profile';
+        
+        const fallbackDiv = document.createElement('div');
+        fallbackDiv.className = 'col-12';
+        const fallbackP = document.createElement('p');
+        fallbackP.className = 'text-muted';
+        fallbackP.textContent = 'Unable to load Medium posts. Visit ';
+        fallbackP.appendChild(fallbackLink);
+        fallbackP.appendChild(document.createTextNode('.'));
+        fallbackDiv.appendChild(fallbackP);
+        
+        container.innerHTML = '';
+        container.appendChild(fallbackDiv);
         return;
       }
 
@@ -94,26 +107,24 @@
           return; // Skip this post if link is not safe
         }
 
-        // Clean description - extract text without HTML tags
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = post.description || post.content || '';
-        const description = tempDiv.textContent.substring(0, 150).trim() + '...';
+        // Clean description - extract text without HTML tags safely
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(post.description || post.content || '', 'text/html');
+        const description = (doc.body.textContent || '').substring(0, 150).trim() + '...';
 
-        // Escape all user-controlled content
+        // Escape text content for safe display
         const safeTitle = escapeHtml(post.title || 'Untitled');
         const safeDescription = escapeHtml(description);
-        const safeThumbnail = escapeHtml(thumbnail);
-        const safeLink = escapeHtml(post.link);
 
         const article = `
           <div class="col-md-4 mb-4">
             <div class="card h-100">
-              <img src="${safeThumbnail}" class="card-img-top" alt="${safeTitle}" style="object-fit: cover; height: 200px;">
+              <img src="${thumbnail}" class="card-img-top" alt="${safeTitle}" style="object-fit: cover; height: 200px;">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title">${safeTitle}</h5>
                 <p class="card-text text-muted small">${new Date(post.pubDate).toLocaleDateString(config.locale)}</p>
                 <p class="card-text">${safeDescription}</p>
-                <a href="${safeLink}" class="btn btn-primary mt-auto" target="_blank">Read more</a>
+                <a href="${post.link}" class="btn btn-primary mt-auto" target="_blank">Read more</a>
               </div>
             </div>
           </div>
@@ -125,6 +136,22 @@
       container.innerHTML = articles.join('');
     })
     .catch(err => {
-      container.innerHTML = `<div class="col-12"><p class="text-muted">${fallbackMessage}</p></div>`;
+      // Build fallback message safely
+      const fallbackLink = document.createElement('a');
+      fallbackLink.href = `https://medium.com/@${encodedUsername}`;
+      fallbackLink.target = '_blank';
+      fallbackLink.textContent = safeUsername || 'my Medium profile';
+      
+      const fallbackDiv = document.createElement('div');
+      fallbackDiv.className = 'col-12';
+      const fallbackP = document.createElement('p');
+      fallbackP.className = 'text-muted';
+      fallbackP.textContent = 'Unable to load Medium posts. Visit ';
+      fallbackP.appendChild(fallbackLink);
+      fallbackP.appendChild(document.createTextNode('.'));
+      fallbackDiv.appendChild(fallbackP);
+      
+      container.innerHTML = '';
+      container.appendChild(fallbackDiv);
     });
 })();
