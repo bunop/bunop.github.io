@@ -1,4 +1,13 @@
 
+# Medium blog configuration
+medium_blog:
+  enabled: true
+  title: "Blog posts on Medium.com"
+  username: "paolo-cozzi"
+  max_posts: 6
+  locale: "it-IT"
+  fallback_image: "https://cdn-images-1.medium.com/max/1200/1*6_fgYnisCa9V21mymySIvA.png"
+
 journal_articles:
   - citation: Manunza A, <span class="text-primary font-weight-bold">Cozzi P</span>, Boettcher P, Curik I, Looft C, Colli L, Sölkner J, Mészáros G and Stella A (2025) "Estimating the optimal number of samples to determine the effective population size in livestock". Front. Genet. 16:1588986.
     doi: 10.3389/fgene.2025.1588986
