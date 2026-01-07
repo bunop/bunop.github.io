@@ -11,3 +11,5 @@ gem "jekyll"
 group :jekyll_plugins do
   gem 'github-pages', "~> 226"
 end
+
+gem "bundler-audit", "~> 0.9.3", :group => :development
