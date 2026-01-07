@@ -31,8 +31,16 @@ which attempted to install node dependencies inside a Jekyll project.
    modify the `_data/navigation.yml` file (which is required by *navbar* in
    `_includes/navigation.html`) and the main `index.html` file
 5. Check the `assets` folder and replace the profile photo in the `img` subfolder
-6. Serve the site locally with `jekyll serve --livereload` and browse it at
-   <http://127.0.0.1:4000/>
+6. Serve the site locally with
+
+   ```bash
+   bundle exec jekyll serve --livereload
+   ```
+
+   and browse it at <http://127.0.0.1:4000/>
+
+   > **Note:** Use `bundle exec` to ensure you're using the Jekyll version specified
+   > in the `Gemfile` (from `github-pages` gem) rather than the system-wide Jekyll installation.
 
 ### Adding a new dependency with npm
 
@@ -41,7 +49,7 @@ you will need to import them correctly in `_sass/main.scss` and jekyll will
 import your definitions during build. *JS* code and other custom files not compiled
 by Jekyll need to be copied in the `assets` folder by
 modifying `package.json` file for the `scripts` key: despite you could access a
-static file from the `node_modules` folder using `jekyll serve --livereload`, you are required
+static file from the `node_modules` folder using `bundle exec jekyll serve --livereload`, you are required
 to copy such files in the `assets` folder in order to serve such files with a static
 build. This could be achieved by calling a custom `npm run` *script* command,
 like you did when installing this project.
@@ -67,18 +75,14 @@ options in the *settings* tab of your repository in order to serve for the
 ![img](assets/img/enable_github_pages.png)
 *Configure GitHub pages to serve for a different root in a different branch*
 
-You will need also to define a token in order to publish the built site into your
-`gh-pages` branch, with the `public_repos` permission. This token need to be
-placed in the `JEKYLL_PAT` variable of your repository secrets settings:
+The GitHub Actions workflow uses the built-in `GITHUB_TOKEN` to publish the site,
+so no additional token configuration is required. The workflow automatically builds
+and deploys from the `master` branch, and also runs build checks on the `devel` branch
+(without deploying). See the workflow configuration in `.github/workflows/github-pages.yml`
+for more details.
 
-![img](assets/img/github_configure_secrets.png)
-*Configure repository secrets to build `gh-pages` using GitHub workflow*
-
-By configuring these, everytime you publish a new commint in the master branch
-of such repository, the build and publishing process will be done automatically
-with the defined GitHub worwflow. See
-[GitHub Actions tutorial](https://jekyllrb.com/docs/continuous-integration/github-actions/#providing-permissions)
-for more informations about Jekyll and GitHub workflows.
+For more information about Jekyll and GitHub workflows, see the
+[GitHub Actions tutorial](https://jekyllrb.com/docs/continuous-integration/github-actions/).
 
 ## License
 
