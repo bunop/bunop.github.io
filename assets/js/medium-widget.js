@@ -45,13 +45,12 @@
    * Build and display fallback message when posts cannot be loaded
    */
   function showFallbackMessage() {
-    const safeUsername = escapeHtml(config.username || '');
     const encodedUsername = encodeURIComponent(config.username || '');
     
     const fallbackLink = document.createElement('a');
     fallbackLink.href = `https://medium.com/@${encodedUsername}`;
     fallbackLink.target = '_blank';
-    fallbackLink.textContent = safeUsername || 'my Medium profile';
+    fallbackLink.textContent = config.username || 'my Medium profile';
     
     const fallbackDiv = document.createElement('div');
     fallbackDiv.className = 'col-12';
@@ -124,24 +123,56 @@
         const safeTitle = escapeHtml(post.title || 'Untitled');
         const safeDescription = escapeHtml(description);
 
-        const article = `
-          <div class="col-md-4 mb-4">
-            <div class="card h-100">
-              <img src="${thumbnail}" class="card-img-top" alt="${safeTitle}" style="object-fit: cover; height: 200px;">
-              <div class="card-body d-flex flex-column">
-                <h5 class="card-title">${safeTitle}</h5>
-                <p class="card-text text-muted small">${new Date(post.pubDate).toLocaleDateString(config.locale)}</p>
-                <p class="card-text">${safeDescription}</p>
-                <a href="${post.link}" class="btn btn-primary mt-auto" target="_blank">Read more</a>
-              </div>
-            </div>
-          </div>
-        `;
-        articles.push(article);
+        // Create article card using DOM methods for safer URL handling
+        const colDiv = document.createElement('div');
+        colDiv.className = 'col-md-4 mb-4';
+        
+        const cardDiv = document.createElement('div');
+        cardDiv.className = 'card h-100';
+        
+        const img = document.createElement('img');
+        img.setAttribute('src', thumbnail);
+        img.className = 'card-img-top';
+        img.setAttribute('alt', safeTitle);
+        img.style.cssText = 'object-fit: cover; height: 200px;';
+        
+        const cardBody = document.createElement('div');
+        cardBody.className = 'card-body d-flex flex-column';
+        
+        const title = document.createElement('h5');
+        title.className = 'card-title';
+        title.textContent = post.title || 'Untitled';
+        
+        const date = document.createElement('p');
+        date.className = 'card-text text-muted small';
+        date.textContent = new Date(post.pubDate).toLocaleDateString(config.locale);
+        
+        const desc = document.createElement('p');
+        desc.className = 'card-text';
+        desc.textContent = description;
+        
+        const link = document.createElement('a');
+        link.setAttribute('href', post.link);
+        link.className = 'btn btn-primary mt-auto';
+        link.setAttribute('target', '_blank');
+        link.textContent = 'Read more';
+        
+        cardBody.appendChild(title);
+        cardBody.appendChild(date);
+        cardBody.appendChild(desc);
+        cardBody.appendChild(link);
+        
+        cardDiv.appendChild(img);
+        cardDiv.appendChild(cardBody);
+        
+        colDiv.appendChild(cardDiv);
+        
+        articles.push(colDiv);
       });
 
-      // Set innerHTML once for better performance
-      container.innerHTML = articles.join('');
+      // Clear container and append all articles
+      container.innerHTML = '';
+      articles.forEach(article => container.appendChild(article));
     })
     .catch(err => {
       showFallbackMessage();
