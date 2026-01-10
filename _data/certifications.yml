@@ -1,4 +1,9 @@
 
+- name: Claude Code in Action
+  emitter: Anthropic Education
+  license_url: https://verify.skilljar.com/c/s9ayduzpr6it
+  period: January 2025
+
 - name: Generative AI for Data Engineering and Data Professionals
   emitter: Udemy Verified Certificate
   license_id: UC-de875ae7-2e85-488d-9a05-c9bbb2ec0c43

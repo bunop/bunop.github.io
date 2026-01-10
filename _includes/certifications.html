@@ -7,7 +7,9 @@
         <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
         {{ item.name }}, {{ item.period }}<br>
         {% if item.license_id %}
-          {{ item.emitter }}, <a href="{{ item.license_url }}{{ item.license_id }}/">{{ item.license_id }}</a>
+          {{ item.emitter }}, <a href="{{ item.license_url }}{{ item.license_id }}/">{{ item.license_id }} <span class="fas fa-external-link-alt"></span></a>
+        {% elsif item.license_url %}
+          {{ item.emitter }}, <a href="{{ item.license_url }}"> view certificate <span class="fas fa-external-link-alt"></span></a>
         {% elsif item.license_file %}
           {{ item.emitter }}, <a href="{{ item.license_file }}"> download certificate <span class="fas fa-download"></span></a>
         {% else %}
